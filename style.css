@@ -31,3 +31,30 @@ nav{
 .bar_icon{
     font-size: 32px;
 }
+.hero{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+.hero_content{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    padding: 10px 15px;
+    border: none;
+}
+
+.tag{
+    background-color: #149f39;
+    padding: 5px 10px;
+    color: white;
+    font-weight: 400;
+    align-self: flex-start;
+}
+.hero_content h1{
+    font-size: 72px;
+    list-style: 1.2;
+    font-weight: 700;
+}
